@@ -24,3 +24,19 @@ A Machine Learning project that detects whether a news article is **REAL or FAKE
 ---
 
 ## 📂 Project Structure
+
+fake-news-detector/
+│
+├── data/
+│ └── news.csv
+│
+├── src/
+│ ├── preprocess.py
+│ ├── train_model.py
+│ └── predict.py
+│
+├── model.pkl
+├── vectorizer.pkl
+├── app.py
+├── requirements.txt
+└── README.md
